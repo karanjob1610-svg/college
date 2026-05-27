@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSVPEC College | Fees</title>
+   {% load static %}
+   <link rel="stylesheet" href="{% static 'css/college_style.css' %}">
+</head>
+<body class="simple-page">
+  <nav class="navbar">
+    <div class="logo">PSVPEC College</div>
+    <ul class="nav-links">
+       <li><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'admission' %}">Admission</a></li>
+      <li><a href="{% url 'fees' %}">Fees</a></li>
+      <li><a href="{% url 'placement' %}">Placement</a></li>
+      <li><a href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="page-content">
+    <h1>Fees Structure</h1>
+    <p>Below is a simple overview of department-wise course fees and duration.</p>
+
+    <h2>Department Course Fees</h2>
+    <table class="fees-table">
+      <thead>
+        <tr>
+          <th>Department</th>
+          <th>Course Fees (Per Year)</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Computer Science Engineering</td>
+          <td>Rs. 95,000</td>
+          <td>4 Years</td>
+        </tr>
+        <tr>
+          <td>Mechanical Engineering</td>
+          <td>Rs. 85,000</td>
+          <td>4 Years</td>
+        </tr>
+        <tr>
+          <td>Electronics and Communication</td>
+          <td>Rs. 90,000</td>
+          <td>4 Years</td>
+        </tr>
+        <tr>
+          <td>Business Administration (BBA)</td>
+          <td>Rs. 70,000</td>
+          <td>3 Years</td>
+        </tr>
+        <tr>
+          <td>Commerce (B.Com)</td>
+          <td>Rs. 60,000</td>
+          <td>3 Years</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Additional Fees</h2>
+    <table class="fees-table">
+      <thead>
+        <tr>
+          <th>Fee Type</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Extracurricular Fees</td>
+          <td>Rs. 6,000 per year</td>
+        </tr>
+        <tr>
+          <td>Hostel Fees</td>
+          <td>Rs. 55,000 per year</td>
+        </tr>
+        <tr>
+          <td>Mess Fees</td>
+          <td>Rs. 30,000 per year</td>
+        </tr>
+        <tr>
+          <td>Semester Exam Fees</td>
+          <td>Rs. 3,500 per semester</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <h3>PSVPEC College</h3>
+    <p>Email: info@psvpeccollege.edu | Phone: +91 98765 43210</p>
+  </footer>
+</body>
+</html>

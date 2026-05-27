@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSVPEC College | Placements</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/college_style.css' %}">
+  
+  
+<body class="simple-page">
+  <nav class="navbar">
+    <div class="logo">PSVPEC College</div>
+    <ul class="nav-links">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'admission' %}">Admission</a></li>
+        <li><a href="{% url 'fees' %}">Fees</a></li>
+        <li><a href="{% url 'placement' %}">Placement</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="placements-hero">
+    <div class="placements-hero-content">
+      <h1>Placement Highlights</h1>
+      <p>Our students are placed in top MNC companies with impressive salary packages.</p>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <h2>Students Placed in Top MNCs</h2>
+    <p>Students from different departments receive excellent offers every year.</p>
+
+    <section class="placement-grid">
+      <article class="student-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Student Rahul">
+        <h3>Rahul Sharma</h3>
+        <p><strong>Department:</strong> Computer Science Engineering</p>
+        <p><strong>Company:</strong> Google</p>
+        <p><strong>Package:</strong> 24 LPA</p>
+      </article>
+
+      <article class="student-card">
+        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=500&q=80" alt="Student Priya">
+        <h3>Priya Nair</h3>
+        <p><strong>Department:</strong> Electronics and Communication</p>
+        <p><strong>Company:</strong> Microsoft</p>
+        <p><strong>Package:</strong> 21 LPA</p>
+      </article>
+
+      <article class="student-card">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="Student Arjun">
+        <h3>Arjun Patel</h3>
+        <p><strong>Department:</strong> Mechanical Engineering</p>
+        <p><strong>Company:</strong> Amazon</p>
+        <p><strong>Package:</strong> 18 LPA</p>
+      </article>
+
+      <article class="student-card">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80" alt="Student Meera">
+        <h3>Meera Iyer</h3>
+        <p><strong>Department:</strong> Business Administration (BBA)</p>
+        <p><strong>Company:</strong> Deloitte</p>
+        <p><strong>Package:</strong> 15 LPA</p>
+      </article>
+
+       <article class="student-card">
+        <img src="https://images.unsplash.com/photo-1603764377193-75b991876878?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sanjay">
+        <h3>Sanjay</h3>
+        <p><strong>Department:</strong> Artificial Intelligence</p>
+        <p><strong>Company:</strong> Cognizant</p>
+        <p><strong>Package:</strong> 10 LPA</p>
+      </article>
+
+       <article class="student-card">
+        <img src="https://plus.unsplash.com/premium_photo-1679162280486-8736450a253a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Student Meera">
+        <h3>Prasath</h3>
+        <p><strong>Department:</strong> Information Technology</p>
+        <p><strong>Company:</strong> Amazon</p>
+        <p><strong>Package:</strong> 15 LPA</p>
+      </article>
+    </section>
+
+    <section class="hiring-partners">
+      <h2>Our Hiring Partners</h2>
+      <p>Leading companies that regularly recruit from our campus.</p>
+
+      <div class="partner-grid">
+       <article class="partner-card">
+  <img src="https://cdn.yoku.app/google.com" alt="Google logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Google</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/Microsoft.com" alt="Microsoft logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Microsoft</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/Amazon.com" alt="Amazon logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Amazon</h3>
+</article>
+        
+  
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/tcs.com" alt="TCS logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>TCS</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/infosys.com" alt="Infosys logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Infosys</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/wipro.com" alt="Wipro logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Wipro</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/accenture.com" alt="Accenture logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Accenture</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/cognizant.com" alt="Cognizant logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Cognizant</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/hcltech.com" alt="HCLTech logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>HCLTech</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/ibm.com" alt="IBM logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>IBM</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/capgemini.com" alt="Capgemini logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Capgemini</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/oracle.com" alt="Oracle logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Oracle</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/zoho.com" alt="Zoho logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>Zoho</h3>
+</article>
+<article class="partner-card">
+  <img src="https://cdn.yoku.app/paypal.com" alt="PayPal logo" width="120" height="48" loading="lazy" decoding="async">
+  <h3>PayPal</h3>
+</article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>PSVPEC College</h3>
+    <p>Email: info@psvpeccollege.edu | Phone: +91 98765 43210</p>
+  </footer>
+</body>
+</html>

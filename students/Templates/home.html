@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSVPEC College | Home</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/college_style.css' %}">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">PSVPEC College</div>
+      <ul class="nav-links">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'admission' %}">Admission</a></li>
+        <li><a href="{% url 'fees' %}">Fees</a></li>
+        <li><a href="{% url 'placement' %}">Placement</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Welcome to PSVPEC College</h1>
+      <p>Inspiring minds, building futures.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="infrastructure">
+      <h2>Our Infrastructure</h2>
+      <p>Modern classrooms, labs, library, and sports facilities for complete growth.</p>
+
+      <div class="image-grid">
+        <img src="https://images.unsplash.com/photo-1592066575517-58df903152f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGJ1aWxkaW5nfGVufDB8fDB8fHww" alt="College building">
+        <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=900&q=80" alt="Library interior">
+        <img src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=900&q=80" alt="Computer lab">
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h3>Contact Us</h3>
+    <p>PSVPEC College, Green Avenue, Chennai</p>
+    <p>Email: info@psvpeccollege.edu | Phone: +91 98765 43210</p>
+  </footer>
+</body>
+</html>
